@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 300px;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 96%;
+    padding: 0.5rem;
+    padding-left: 5px;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+button {
+    margin: 2% 6%;
+    width: 90%;
+    padding: 0.75rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+p{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.titleResult{
+    text-align: center;
+    font-size: 25px;
+}
+
+.btnBack{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+    font-weight: bold;
+    color: #4CAF50;
+    text-decoration: none;
+
+    &:hover{
+       color: #45a049;
+    }
+}
+
+@media (max-width: 480px) {
+    form {
+        padding: 1rem;
+    }
+
+    input[type="text"] {
+        font-size: 0.9rem;
+    }
+
+    button {
+        font-size: 0.9rem;
+    }
+}
